@@ -1,0 +1,185 @@
+
+.slide-image{
+  margin: auto;
+  display: block;
+  clear: both;
+  width: 100%;
+}
+.type-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.type-item{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12rpx;
+  margin-bottom: 12rpx;
+}
+
+.type-image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.type-item text{
+  font-size: 12px;
+  margin-top: 6rpx;
+}
+
+.img-list{
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin-left: 0.5%;
+  margin-top: 6rpx;
+  justify-content: space-around;
+}
+.img-item{
+  width: 33%;
+  height: 248rpx;
+  display: flex;
+  justify-content: center;
+}
+.ad{
+  width: 100%;
+  margin-bottom: 2rpx;
+}
+.ad-show{
+  width: 100%;
+  height: 100%;
+}
+.item-img{
+  width: 246rpx;
+  height: 246rpx;
+}
+.load_more{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10rpx;
+}
+.load_more_image{
+  width: 46rpx;
+  height: 46rpx;
+  display: flex;
+  justify-content: center;
+}
+
+/** 弹窗**/
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+  background-size: 100% 100%
+}
+.modal-dialog{
+   position: fixed;
+   width: 540rpx;
+   left: 105rpx;
+   top: 250rpx;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   z-index: 9999;
+   display: flex;
+}
+.modal-top {
+  width: 540rpx;
+  background: white;
+  border-radius: 20rpx;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  height: 86rpx;
+  font-size: 34rpx;
+  line-height: 86rpx;
+  margin-top: 40rpx;
+}
+
+.modal-title {
+  font-size: 36rpx;
+  color: #030303;
+  text-align: center;
+  background: #ffe069;
+  height: 100rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  line-height: 100rpx;
+}
+
+.modal-content {
+  padding: 50rpx 32rpx;
+  display: flex;
+  border-radius: 4rpx;
+  font-size: 30rpx;
+  flex-direction: column;
+  justify-content: center
+}
+
+.model-content-item{
+  display: flex;
+  justify-content: center;
+}
+.app-name{
+  font-size: 28rpx;
+  color: #333;
+  margin-top: 10rpx;
+}
+.down-tip{
+  margin-top: 50rpx;
+}
+.down-tip text{
+  font-size: 26rpx;
+  color: #333;
+  margin-top: 10rpx;
+}
+
+.input {
+  width: 100%;
+  height: 82rpx;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  color: #333;
+}
+
+input-holder {
+  color: #666;
+  font-size: 28rpx;
+}
+
+.btn-cancel {
+  width: 50%;
+  color: #666;
+  text-align: center;
+  border-right: 1px solid #dedede;
+}
+
+.btn-confirm {
+  width: 50%;
+  color: #ec5300;
+  text-align: center;
+}
+.close-image{
+  width: 60rpx;
+  height: 60rpx;
+}

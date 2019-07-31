@@ -1,0 +1,155 @@
+@import "/pages/common/common_bar.wxss";
+
+page {
+  width: 100%;
+}
+
+.ad {
+  width: 730rpx;
+  margin-top: 12rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad-show {
+  width: 100%;
+  height: 135px;
+}
+
+.img-list {
+  display: flex;
+  flex-direction: row;
+  width: 730rpx;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin-left: 12rpx;
+  justify-content: space-around;
+}
+
+.img-item {
+  width: 230rpx;
+  height: 230rpx;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.item-img {
+  width: 230rpx;
+  height: 230rpx;
+  border-radius: 5px;
+}
+
+.load_more {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10rpx;
+}
+
+.load_more_image {
+  width: 46rpx;
+  height: 46rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-tab {
+  width: 100%;
+  text-align: center;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.bottom-tab-item {
+  width: 250rpx;
+  height: 100rpx;
+  color: #434343;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-img {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.category-txt {
+  font-size: 10pt;
+  height: 30rpx;
+  margin-top: 4rpx;
+}
+
+.bottom-share-item {
+  width: 250rpx;
+  height: 100rpx;
+  color: #434343;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.share-btn {
+  width: 100%;
+  height: 100rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0)
+}
+.share-btn::after{
+  border: 0;
+}
+
+
+.float-view {
+  position: fixed;
+  z-index: 101;
+  right: 10rpx;
+  bottom:130rpx;
+}
+
+.float-view-wrapper {
+  position: relative;
+  width: 190rpx;
+  height: 146rpx;
+}
+
+.float-iamge {
+  width: 152rpx;
+  height: 152rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.float-image-close{
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 0;
+}
+
+.nav-view {
+  width: 152rpx;
+  height: 152rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
